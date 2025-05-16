@@ -16,7 +16,7 @@ FILE="mtb_$ARCH_TYPE"
 if [ ! -f "$PWD/$FILE" ]; then
     echo "文件 $FILE 不存在，正在下载..."
     # 下载文件
-    URL="https://gitproxy.click/https://raw.githubusercontent.com/Code-KKK/pycode/refs/heads/main/mt/$FILE"
+    URL="https://ghfast.top/https://raw.githubusercontent.com/Code-KKK/pycode/refs/heads/main/mt/$FILE"
     curl -sS -o "$PWD/$FILE" --create-dirs "$URL"
     # 下载失败处理
     if [ $? -ne 0 ]; then
